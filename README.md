@@ -2,25 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
-<style type="text/css">
-strong {
-}
-#a {
-	font-size: 36px;
-	font-family: "Arial Unicode MS", "微软雅黑", "幼圆", "新宋体", "宋体";
-	font-weight: bold;
-}
-.a {
-	font-weight: normal;
-}
-.a {
-	font-style: italic;
-}
-.a {
-	font-style: normal;
-}
-</style>
+
 </head>
 
 <body>
