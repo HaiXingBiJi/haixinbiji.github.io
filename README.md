@@ -5,7 +5,7 @@
 </head>
 
 <body>
-<h1 class="a" id="a"><strong>  <img src="file:///C|/Users/yyc/Desktop/反馈.png" width="96" height="100" /> 海星笔记用户反馈系统
+<h1 class="a" id="a"><strong>  <img src="https://github.com/HaiXingBiJi/haixinbiji.github.io/blob/master/image/%E5%8F%8D%E9%A6%88.png" width="96" height="100" /> 海星笔记用户反馈系统
 </strong></h1>
 <p>
   <!-- #BeginDate format:wfcCh2a -->2019年11月4日 Monday 5:47 PM<!-- #EndDate --></p>
