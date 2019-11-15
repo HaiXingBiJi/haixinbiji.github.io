@@ -10,7 +10,7 @@
   method="POST"
 >
   <label>
-    Your email:
+    Your email:2538617404@qq.com
     <input type="text" name="_replyto">
   </label>
   <label>
