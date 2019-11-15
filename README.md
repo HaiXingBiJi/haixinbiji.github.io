@@ -1,9 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
 </head>
-
 <body>
 <h1 class="a" id="a"><strong>  <img src="http://chuantu.xyz/t6/703/1572872622x1031866013.png" width="96" height="100" /> 海星笔记用户反馈系统
 </strong></h1>
@@ -24,7 +22,49 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-  
+  <form action="mailto:rainsilence@126.com" id="mailForm">
+    <div>
+        <span class="mailLabel">
+            Address:
+        </span>
+        <span>
+            <input type="text" name="address"/>
+        </span>
+    </div>
+    <div>
+        <span class="mailLabel">
+            CC:
+        </span>
+        <span>
+            <input type="text" name="cc"/>
+        </span>
+    </div>
+    <div>
+        <span class="mailLabel">
+            BCC:
+        </span>
+        <span>
+            <input type="text" name="bcc"/>
+        </span>
+    </div>
+    <div>
+        <span class="mailLabel">
+            Subject:
+        </span>
+        <span>
+            <input type="text" name="subject"/>
+        </span>
+    </div>
+    <div>
+        <span class="mailLabel">
+            Content:
+        </span>
+        <span>
+            <textarea name="body" rows="4" cols="14"></textarea>
+        </span>
+    </div>
+    <input type="button" value="send" onclick="sendMail();"/>
+</form>
 <script type="text/javascript">
   function getNowFormatDate() {
     var date = new Date();
