@@ -5,44 +5,19 @@
 <body>
 <h1 class="a" id="a"><strong>  <img src="http://chuantu.xyz/t6/703/1572872622x1031866013.png" width="96" height="100" /> 海星笔记用户反馈系统
 </strong></h1>
-
-<form id="form1" name="form1" method="post" action="">
-  <p>
-    <label>
-    <textarea name="fankui" id="fankui" cols="45" rows="5"></textarea>
-    </label>
-  </p>
-  <p>
-    <input type="submit" name="button" id="button" value="提交" />
-  </p>
-</form>
-
-<form action="mailto:2538617404@qq.com" id="mailForm">
-    <div>
-        <span class="mailLabel">
-            Address:
-        </span>
-        <span>
-            <input type="text" name="address"/>
-        </span>
-    </div>
-    <div>
-        <span class="mailLabel">
-            Subject:
-        </span>
-        <span>
-            <input type="text" name="subject"/>
-        </span>
-    </div>
-    <div>
-        <span class="mailLabel">
-            Content:
-        </span>
-        <span>
-            <textarea name="body" rows="4" cols="14"></textarea>
-        </span>
-    </div>
-    <input type="button" value="send" onclick="sendMail();"/>
+<form
+  action="https://formspree.io/xoqqkaoz"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit">Send</button>
 </form>
 <script type="text/javascript">
   function getNowFormatDate() {
