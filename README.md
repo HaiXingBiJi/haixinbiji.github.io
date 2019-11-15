@@ -28,22 +28,6 @@
     </div>
     <div>
         <span class="mailLabel">
-            CC:
-        </span>
-        <span>
-            <input type="text" name="cc"/>
-        </span>
-    </div>
-    <div>
-        <span class="mailLabel">
-            BCC:
-        </span>
-        <span>
-            <input type="text" name="bcc"/>
-        </span>
-    </div>
-    <div>
-        <span class="mailLabel">
             Subject:
         </span>
         <span>
